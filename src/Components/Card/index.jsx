@@ -1,7 +1,6 @@
 import "./card.css";
 
 function Card(props) {
-
   return (
     <div className="card" style={{ backgroundImage: `url(${require(`assets/img/${props.image}`)})`}}>
       <div className="title">
