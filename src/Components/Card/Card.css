@@ -1,6 +1,6 @@
-.pictures {
+.card {
   height: 300px;
-  width: 300px;
+  min-width: 300px;
   gap: 20px;
   background-color: blue;
   font-size: 10px;

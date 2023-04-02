@@ -1,10 +1,9 @@
-import React from "react";
-import "./Card.css";
+import "./card.css";
 
 function Card(props) {
+
   return (
-    <div className="pictures">
-      <img src={props.picture} />
+    <div className="card" style={{ backgroundImage: `url(${require(`assets/img/${props.image}`)})`}}>
       <div className="title">
         <button className="icon-button-down">
           <img src="assets/img/thumbs-down.svg" alt="thumbs down"></img>
