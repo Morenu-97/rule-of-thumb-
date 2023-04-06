@@ -1,0 +1,41 @@
+.card {
+    height: 300px;
+    min-width: 300px;
+    gap: 20px;
+    background-color: blue;
+    font-size: 10px;
+    border-color: black;
+  }
+  
+  .title {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icon-button-up {
+    background-color: rgba(var(--color-green-positive), 0.8);
+  }
+  
+  .icon-button-down {
+    background: #fbbd4a;
+  }
+  
+  .icon-vote {
+    height: 38px;
+    width: 107px;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      linear-gradient(0deg, #ffffff, #ffffff);
+    border: 1px solid rgba(255, 255, 255, 1);
+  }
+  
+  .card-title {
+    font-family: "Lato";
+    color: #ffffff;
+  }
+  
+  .card-description,
+  .category {
+    font-family: "Lato";
+    color: #ffffff;
+  }
+  
