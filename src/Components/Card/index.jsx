@@ -1,16 +1,23 @@
 import "./card.css";
 
-function Card(props) {
+function Card({image, name, description, category}) {
+  const imageUrl = require(`assets/img/${image}`);
+  const divStyle = {
+    backgroundImage: `url(${imageUrl})`,
+    width: '300px',
+    height: '300px',
+  };
+
   return (
-    <div className="card" style={{ backgroundImage: `url(${require(`assets/img/${props.image}`)})`}}>
+    <div className="card" style={divStyle}>
       <div className="title">
         <button className="icon-button-down">
           <img src="assets/img/thumbs-down.svg" alt="thumbs down"></img>
         </button>
-        <p className="card-title">{props.name}</p>
+        <p className="card-title">{name}</p>
       </div>
-      <p className="card-description">{props.description}</p>
-      <p className="category">{props.category}</p>
+      <p className="card-description">{description}</p>
+      <p className="category">{category}</p>
       <div>
         <button className="icon-button-up">
           <img src="assets/img/thumbs-up.svg" alt="thumbs up"></img>
