@@ -1,13 +1,14 @@
 import "./App.css";
-import Card from "components/Card";
+//import Card from "components/Card";
 
 const names = [
   {
+    key:1,
     name: "Kanye West",
     description:
-      "Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.",
+    "Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.",
     category: "entertainment",
-    picture: "kanye.png",
+    image: "kanye.png",
     lastUpdated: "2020-03-10T23:08:57.892Z",
     votes: {
       positive: 23,
@@ -15,11 +16,12 @@ const names = [
     },
   },
   {
+    key:2,
     name: "Mark West",
     description:
       "Born in Atlanta and raised in Chicago, West was first known as a producer for Roc-A-Fella Records in the early 2000s, producing singles for several mainstream artists.",
     category: "entertainment",
-    picture: "mark.png",
+    image: "mark.png",
     lastUpdated: "2020-03-10T23:08:57.892Z",
     votes: {
       positive: 23,
@@ -31,17 +33,12 @@ const names = [
 function App() {
   return (
     <section className="cards">
-      {names.map((name) => {
+      hello test
+      {/* {names.map((name) => {
         return (
-          <Card
-            image={name.picture}
-            key={name.name}
-            name={name.name}
-            description={name.description}
-            category={name.category}
-          />
+          <Card {...name}/>
         );
-      })}
+      })} */}
     </section>
   );
 }
