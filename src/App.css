@@ -1,3 +1,5 @@
-/* .cards {
+.cards {
   display: flex;
-} */
+  gap: 12px;
+  overflow: auto;
+}
