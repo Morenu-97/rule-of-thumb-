@@ -1,5 +1,5 @@
 import "./App.css";
-//import Card from "components/Card";
+import Card from "components/Card";
 
 const names = [
   {
@@ -33,12 +33,11 @@ const names = [
 function App() {
   return (
     <section className="cards">
-      hello test
-      {/* {names.map((name) => {
+      {names.map((name) => {
         return (
           <Card {...name}/>
         );
-      })} */}
+      })}
     </section>
   );
 }
