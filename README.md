@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+This project tracks the sentiment of users towards prominent individuals from various fields. The application allows users to express their opinion on each celebrity by casting their vote, and displays the results in real-time. The goal is to provide an interactive platform that enables users to actively participate in the discussion surrounding public figures.
+
+Skills: 
+ReactJS, hooks, CSS, Redux, persistencia de estado, Git.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
